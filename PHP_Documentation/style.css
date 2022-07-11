@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #2f2f2f;
+}
+nav{
+    background-color: #8892bf;
+    padding-left: 150px;
+    border-bottom: 4px solid #4f5b93;
+}
+    nav img{
+        width: 60px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    nav ul{
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 18px;
+        color: white;
+    }
+        nav ul li{
+            display: inline-block;
+            height: 50px;
+            padding:25px 10px 0px 10px;
+        }
+        nav ul .active{
+            background-color: #4f5b93;
+        }
+        nav ul li a{
+            display: inline-block;
+            vertical-align: middle;
+        }
+        nav input:last-child{
+            width: 450px;
+            height: 30px;
+            padding-left: 10px;
+            outline: none;
+            margin-left: 500px;
+        }
+header{
+    padding:20px 0px 0px 150px ;
+}
+    header div{
+        display: inline-block;
+        color: white;
+        vertical-align: middle;
+    }
+    
+    header div:first-child span::after,
+    header div:last-child span::after,header div:last-child p::after{
+        content: '';
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        vertical-align: middle;
+        border-radius: 100%;
+        margin: 10px;
+    }
+    header div:first-child p{
+        display: inline-block;
+    }
+    header div:last-child{
+        text-align: right;
+        margin-left: 990px;
+    }
+    header div:last-child p{
+        display: inline-block;
+    }
+.main{
+    margin-top: 20px;
+    padding-left: 150px;
+}
+    .main .leftContainer{
+        display: inline-block;
+        background-color: white;
+        width: 65%;
+        padding: 20px;
+    }
+        .main .leftContainer div:first-child{
+            text-align: right;
+        }
+        .main .leftContainer div:first-child *{
+            display: inline-block;
+        }
+            .main .leftContainer div:first-child select{
+                width: 150px;
+                height: 20px;
+            }
+        .main .leftContainer span{
+            display: block;
+            text-align: right;
+            margin:10px 0px;
+        }
+            .main .leftContainer span a{
+                margin-left: 10px;
+                text-decoration: none;
+                color: #4f5b93;
+            }
+        .main .leftContainer h1{
+            border-bottom: 2px dashed #333333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-weight: 100;
+            font-size: 30px;
+        }
+        .main .leftContainer h2{
+            border-bottom: 2px dashed #333333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-weight: 100;
+        }
+        .main .leftContainer ul{
+            padding:0px 0px 40px 20px;
+
+        }
+            .main .leftContainer ul li a{
+                line-height: 25px;
+                color: #5392c8;
+            }
+        .main .leftContainer p{
+            font-size: 17px;
+            line-height: 25px;
+            margin:20px 0px;
+        }
+        .main .leftContainer div:last-of-type{
+            border-bottom: 2px dashed black;
+            padding-bottom: 30px;
+        }
+            .main .leftContainer div:last-of-type h2{
+                margin: 0px;
+                padding: 0px;
+                border: none;
+                display: inline-block;
+            }
+            .main .leftContainer div:last-of-type span{
+                display: inline-block;
+                height: 50px;
+                padding: 0px;
+                padding-bottom: 10px;
+                margin: 0px 0px 0px 700px;
+                border-bottom:3px solid blue ;
+            }
+                
+                .main .leftContainer div:last-of-type span *{
+                    display: inline-block;
+                    padding-top: 8px;
+                }
+                .main .leftContainer div:last-of-type span p:first-of-type{
+                    border: 2px solid black;
+                    text-align: center;
+                    padding: 0px 6px;
+                }
+.main .rightContainer{
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    margin-left: 24px;
+    margin-top: 10px;
+    font-weight:0;
+    width: 400px;
+}
+    .main .rightContainer *{
+        border-bottom: 2px dashed white;
+        margin-bottom: 10px;
+        font-weight: 100;
+    }
+    .main .rightContainer p::before{
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background-color: #a14970;
+        vertical-align: middle;
+        margin:0px 5px 5px 0px;
+        border-radius: 100%;
+    }
+    .main .rightContainer p{
+        color: #a14970;
+        border-color: #a14970;
+    }
+    .main .rightContainer h4{
+        padding-left: 15px;
+        
+    }
+    .main .rightContainer h3{
+        font-size: 20px;
+        
+    }
+footer{
+    color: white;
+    padding:50px 0px 20px 120px;
+}
+    footer ul{
+        display: inline-block;
+        
+    }
+        footer ul li{
+            display: inline-block;
+        }    

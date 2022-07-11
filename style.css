@@ -1,0 +1,17 @@
+p{
+    color: blueviolet;
+}
+p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p {
+    font-family: "helvetica neue", arial, verdana, sans-serif;
+  }
+span{
+    font-weight: bold;
+    color: blue;
+}

@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+}
+html,body{
+    height: 100%;
+}
+.container{
+    min-width:1200px;
+    width: min-content;
+    margin: auto;
+    background-image:linear-gradient(white,#c4c0dc);
+}
+    .container header{
+        background-image: linear-gradient(rgb(220,229,236),white);
+        padding: 30px 20px;
+    }
+        .container header img{
+            width: 400px;
+        }
+        .container header div{
+            display: inline-block;
+            text-transform: uppercase;
+            vertical-align: top;
+            width: min-content;
+
+        }
+        .container header div div{
+            margin-left: 30px;
+            width: 726px;
+            border-bottom: 4px solid #2e5464;
+            font-family: 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+
+        }
+            .container header div div .name{
+                font-size: 80px;
+                color: #2e5464;
+               
+            }
+            .container header div div .jobTitle{
+                font-size: 33px;
+                margin-bottom: 35px;
+            }
+        .container header div .contact_user{
+            border: none;
+            vertical-align: middle;
+            margin-top: 35px;
+            font-size: 24px;
+            font-weight: normal;
+        }
+        .container header div .contact_user p{
+            display: inline-block;
+        }
+        .container header div .contact_user ul{
+            display: inline-block;
+            padding: 0px;
+        }
+        .container header div .contact_user ul li{
+           display: inline-block;
+           text-transform: lowercase;
+           margin: 0px;
+        }
+        .container header div .contact_user ul li::before{
+            content: '';
+            font-size: 30px;
+            background-color: black;
+            padding: 0px;
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            vertical-align: middle;
+            margin:0px 5px 5px 5px;
+            border-radius: 100%;
+        }
+.container .main{
+    background-color: #e9ebf0;
+    margin: 20px;
+    padding: 20px;
+}
+    .container .main h1{
+        text-align: center;
+        font-size: 30px;
+        color: #454344;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    .container .main p{
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #454344;
+    }
+.container .subMain{
+    margin: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    .container .subMain .experience{
+        width: 555px;
+        vertical-align: top;
+        display: inline-block;
+        padding: 10px;
+    }
+    .container .subMain .experience img{
+        width: 75px;
+        margin: 10px 0px 10px 30px;
+    }
+    .container .subMain .experience h1{
+        text-align: center;
+        font-size: 40px;
+    }
+
+.container .subMain .project{
+    background-image: linear-gradient(#ebebeb,white,#c6c6c6);
+    padding-bottom: 70px;
+    
+}
+    .container .subMain .project h3{
+        font-size: 25px;
+        line-height: 30px;
+        margin:30px 0px 0px 20px;
+
+
+    }
+    .container .subMain .project p{
+        font-size: 20px;
+        line-height: 35px;
+        margin:10px 0px 0px 20px;
+    }
+    .container .subMain .project ul{
+        padding:10px 0px 0px 40px;
+    }
+        .container .subMain .project ul li{
+            font-size: 20px;
+        }
+.container footer{
+    margin: auto;
+}        
+    .container footer div{
+        margin: auto;
+        width: fit-content;
+    }
+        .container footer div img{
+            width: 30px;;
+        }
+        .container footer div a{
+            display: inline-block;
+            vertical-align: middle;
+            color: #2e5464;
+            font-size: 20px;
+            margin:-0px 10px 10px 0px;
+            text-decoration: underline;
+        }
+     

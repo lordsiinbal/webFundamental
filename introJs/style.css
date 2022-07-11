@@ -1,0 +1,74 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.container{
+    background-color: rgb(209, 202, 202);
+    width: 970px;
+    margin: auto;
+}
+    .containerL{
+        display: inline-block;
+        width: 300px;
+        padding: 10px;
+    }
+        .containerL h4{
+            margin:10px 0px 10px 0px;
+            color: rgb(105, 101, 101);
+        }
+        .containerL div{
+            margin:10px;
+            font-size: 16px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .containerL ul{
+            padding: 0px;
+            margin: 0px;
+        }
+        
+            .containerL ul li{
+                list-style: none;
+                margin-bottom: 10px;
+            }
+        
+.containerR{
+    border-left: 3px solid  rgb(189, 187, 187);
+    width: 643px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    height: 100%;
+}
+    .containerR p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+
+    }
+    .containerR div{
+        margin:30px 0px 30px 30px;
+    }
+    .containerR .boxPara{
+        font-size: 16px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 10px 25px;
+        margin: 0px;
+        width: 570px;
+        outline: 3px solid rgb(226, 223, 223);
+    }
+        .containerR .boxPara p{
+            line-height: 25px;
+        }
+
+        .containerR .boxPara ol{
+            padding-left: 15px;
+        }
+        
+        .containerR .boxPara ol li{
+        margin-bottom: 10px;
+        }
+
